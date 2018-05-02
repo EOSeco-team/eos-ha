@@ -12,7 +12,7 @@ This is our architecture. There are several roles, include
 
 ## API server cluster
 
-API server cluster is composed of many API servers. We can adjust number of API server as needed. API servers are none producing full node. They Sync block data with ohter EOS full node and serve EOS users with http api call. We will set "max-clients" parameter a larger value to 
+API server cluster is composed of many API servers. We can adjust number of API server as needed. API servers are none producing full node. They Sync block data with ohter EOS full node and serve EOS users with http api call. We will set "max-clients" parameter a larger value to accept more full node.
 
 
 ## BP server
